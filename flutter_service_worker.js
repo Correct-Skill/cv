@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "891e964f76dd32b0605716601ed1c51b",
+  "assets/AssetManifest.json": "425852dd8e49af2f6c14521fa0e51b81",
 "assets/assets/background.jpg": "6962bac836817bbc79be27b3d95c9e33",
 "assets/assets/BebasNeue-Bold.ttf": "50c63ebc60e4f6f502dd09b59c55146b",
 "assets/assets/BebasNeue-Book.ttf": "0e0f3f2f2cb7fd99a9afd332983d1e0a",
@@ -11,6 +11,7 @@ const RESOURCES = {
 "assets/assets/BebasNeue-Regular.ttf": "54413459a5adf3f82686db50595cba5a",
 "assets/assets/BebasNeue-Thin.ttf": "a8af7ade5b15718cf172baeb90d9c585",
 "assets/assets/GithubIcon.ttf": "b85fd3faf46e16c3a87c06122ef72a61",
+"assets/assets/neon_car.v3.riv": "a0e2b845e50fcbd0a95ea3c70003ad50",
 "assets/assets/tv_color.riv": "d500fb9419665e8c733c34bb3b7e55ba",
 "assets/FontManifest.json": "a9135e1d7225c46628fd4c4bd16cc4b2",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
@@ -19,9 +20,9 @@ const RESOURCES = {
 "favicon.png": "f284227d041624eb3ba112806f1bc77e",
 "icons/Icon-192.png": "f284227d041624eb3ba112806f1bc77e",
 "icons/Icon-512.png": "f284227d041624eb3ba112806f1bc77e",
-"index.html": "471cddfe0254ad5479cb60ecfeb7264a",
-"/": "471cddfe0254ad5479cb60ecfeb7264a",
-"main.dart.js": "2d916b98ac82a2d54dc593622ba39a04",
+"index.html": "1e96cbeab672f3b62737d88345b8be32",
+"/": "1e96cbeab672f3b62737d88345b8be32",
+"main.dart.js": "ea5a90710f55045b3532f6db0d4ae14b",
 "manifest.json": "0217029a491f87d1b9abbce03d830207",
 "version.json": "f82b6dd2812412cea452f53a9abbdf1a"
 };
