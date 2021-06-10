@@ -33186,7 +33186,7 @@ s.RZ(new D.Ca("Idle",1,new B.ib(!1,new P.bS(t.V))))
 return this.a.d=s},
 $S:131}
 F.Ye.prototype={
-$0:function(){$.iA().iH("open",["https://github.com/Shubhaankar-sharma"])},
+$0:function(){$.iA().iH("open",["https://github.com/Correct-skill"])},
 $S:1}
 F.Yf.prototype={
 $0:function(){$.iA().iH("open",["mailto:shubhaankar@hotmail.com"])},
