@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "425852dd8e49af2f6c14521fa0e51b81",
+  "assets/AssetManifest.json": "da58ffc0d93394c1cec2e9e3f16683de",
 "assets/assets/background.jpg": "6962bac836817bbc79be27b3d95c9e33",
 "assets/assets/BebasNeue-Bold.ttf": "50c63ebc60e4f6f502dd09b59c55146b",
 "assets/assets/BebasNeue-Book.ttf": "0e0f3f2f2cb7fd99a9afd332983d1e0a",
@@ -12,17 +12,19 @@ const RESOURCES = {
 "assets/assets/BebasNeue-Thin.ttf": "a8af7ade5b15718cf172baeb90d9c585",
 "assets/assets/GithubIcon.ttf": "b85fd3faf46e16c3a87c06122ef72a61",
 "assets/assets/neon_car.v3.riv": "3b0393643267b37e76a00e031777d28c",
+"assets/assets/planet.riv": "03277ea3fdd43e61ce7b63806c1d634e",
+"assets/assets/spaceman.riv": "82609146c4153bdd5eec9e53346da429",
 "assets/assets/tv_color.riv": "d500fb9419665e8c733c34bb3b7e55ba",
 "assets/FontManifest.json": "a9135e1d7225c46628fd4c4bd16cc4b2",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "d9f795f0220bfef30820aef940d6f659",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"assets/NOTICES": "971b34c6cc0ea52ae29fb941b4528803",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "favicon.png": "f284227d041624eb3ba112806f1bc77e",
 "icons/Icon-192.png": "f284227d041624eb3ba112806f1bc77e",
 "icons/Icon-512.png": "f284227d041624eb3ba112806f1bc77e",
-"index.html": "0a1b11789e19161eab5629635700104f",
-"/": "0a1b11789e19161eab5629635700104f",
-"main.dart.js": "2c48d0834ff7234d1cf7c981eb4c52fe",
+"index.html": "8098e80c51a680462dbaf0b593173870",
+"/": "8098e80c51a680462dbaf0b593173870",
+"main.dart.js": "7ebe584706b4ccb42e4c5beee8a73fed",
 "manifest.json": "0217029a491f87d1b9abbce03d830207",
 "version.json": "f82b6dd2812412cea452f53a9abbdf1a"
 };
@@ -42,7 +44,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
